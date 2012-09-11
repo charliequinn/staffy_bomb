@@ -10,3 +10,4 @@ module.exports = (robot) ->
     msg.http("http://shielded-plains-5602.herokuapp.com/")
       .get() (err, res, body) ->
         msg.send JSON.parse(body).staffy
+
